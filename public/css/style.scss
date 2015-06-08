@@ -1,8 +1,22 @@
+---
+# redundant Front Matter block
+---
 
+body {
+    line-height: 150%;
+}
 
+.body-container {
+    h1, h2, h3, h4, h5, h6, p, pre, ul, ol { 
+    max-width: 750px; 
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
 
+.site-header h3 { float: left; }
 
-
+.social-media-list { list-style-type: none; }
 
 /**
  * Icons
@@ -20,13 +34,13 @@
 /**
  * Syntax highlighting styles
  */
+
 .highlight {
     background: #fff;
-    @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
-    .k     { font-weight: bold } // Keyword
+    .highlight .k     { font-weight: bold } // Keyword
     .o     { font-weight: bold } // Operator
     .cm    { color: #998; font-style: italic } // Comment.Multiline
     .cp    { color: #999; font-weight: bold } // Comment.Preproc
