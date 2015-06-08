@@ -10,7 +10,7 @@ This repo has things in it, which I didn't write myself but have been formally p
 
 * Jekyll
 * Twitter Bootstrap (v.3.3.4)
-* I'm going to incorporate (OnePageScroll)[http://www.thepetedesign.com/demos/onepage_scroll_demo.html] and I'm just getting around to that any day now
+* I'm going to incorporate [OnePageScroll](http://www.thepetedesign.com/demos/onepage_scroll_demo.html) and I'm just getting around to that any day now
 * ...and so on
 
 ##Requirements
