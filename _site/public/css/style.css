@@ -1,32 +1,37 @@
+/**
+ * Typography
+ */
+/* general typography */
 body {
-  line-height: 150%; }
+  font-family: 'Lato', sans-serif;
+  word-wrap: break-word; }
 
-.body-container h1, .body-container h2, .body-container h3, .body-container h4, .body-container h5, .body-container h6, .body-container p, .body-container pre, .body-container ul, .body-container ol {
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto; }
+.body-container {
+  font-size: 2rem;
+  line-height: 180%; }
+  .body-container h1, .body-container h2, .body-container h3, .body-container h4, .body-container h5, .body-container h6, .body-container p, .body-container pre, .body-container ul, .body-container ol, .body-container blockquote, .body-container hr, .body-container dl, .body-container table, .body-container .message, .body-container .gist {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem; }
 
+blockquote blockquote {
+  border-left: none; }
+
+.footnotes {
+  font-size: 1.5rem; }
+
+/* spacing */
 .site-header h3 {
   float: left; }
 
-.social-media-list {
-  list-style-type: none; }
+.post-title {
+  margin-bottom: 4rem; }
 
-/**
- * Icons
- */
-.icon > svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle; }
+.site-footer {
+  text-align: center; }
 
-.icon > svg path {
-  fill: #828282; }
-
-/**
- * Syntax highlighting styles
- */
+/* <pre> code syntax highlighting */
 .highlight {
   background: #fff; }
   .highlight .c {
@@ -162,3 +167,22 @@ body {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/**
+ * Iconography
+ */
+.social-media-list {
+  list-style-type: none; }
+
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+
+.icon > svg path {
+  fill: #828282; }
+
+/**
+ * Images
+ */

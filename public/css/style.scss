@@ -2,42 +2,56 @@
 # redundant Front Matter block
 ---
 
-body {
-    line-height: 150%;
+
+
+
+
+/**
+ * Typography
+ */
+
+
+
+/* general typography */
+
+body { 
+    font-family: 'Lato', sans-serif;
+    word-wrap: break-word; 
 }
 
 .body-container {
-    h1, h2, h3, h4, h5, h6, p, pre, ul, ol { 
+    font-size: 2rem;
+    line-height: 180%;
+
+    h1, h2, h3, h4, h5, h6, p, pre, ul, ol, blockquote, hr, dl, table, .message, .gist { 
     max-width: 750px; 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3rem;
     }
 }
 
+blockquote blockquote {
+    border-left: none;
+}
+
+.footnotes { font-size: 1.5rem; }
+
+
+/* spacing */
+
 .site-header h3 { float: left; }
 
-.social-media-list { list-style-type: none; }
+.post-title { margin-bottom: 4rem; }
 
-/**
- * Icons
- */
-.icon > svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #828282; }
+.site-footer { text-align: center; }
 
 
 
-/**
- * Syntax highlighting styles
- */
+/* <pre> code syntax highlighting */
 
 .highlight {
     background: #fff;
-
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
     .highlight .k     { font-weight: bold } // Keyword
@@ -98,3 +112,35 @@ body {
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+
+
+
+
+/**
+ * Iconography
+ */
+
+ .social-media-list { list-style-type: none; }
+
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+
+
+
+
+
+/**
+ * Images
+ */
+
+ .body-container {
+    &p img {
+        
+    }
+ }
