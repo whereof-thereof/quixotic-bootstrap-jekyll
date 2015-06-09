@@ -10,8 +10,7 @@ This repo has things in it, which I didn't write myself but have been formally p
 
 * [Jekyll](http://jekyllrb.com/)
 * [Twitter Bootstrap](http://getbootstrap.com/) (v.3.3.4)
-* I've gone ahead and used the [Lato font from Google/fonts](https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Lato)
-* I'm going to incorporate [OnePageScroll](https://github.com/peachananr/onepage-scroll) and I'm just getting around to that any day now
+* I've gone ahead and used [Noto Sans from Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
 * ...and so on
 
 ##Requirements
@@ -24,6 +23,6 @@ If you're running local, you'll need:
 * Jekyll sitemap
 * SASS
 
-##Other notes & disclosures
+##Notes & disclosures
 
-- I took a few liberties with the `<blockquote>` styling. If you hate the way I handled it, the code is labelled clearly enough in the `public/css/style.scss` file.
+- This isn't anywhere near ready.
