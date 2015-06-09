@@ -7,8 +7,8 @@ body {
   word-wrap: break-word; }
 
 .body-container {
-  font-size: 2rem;
-  line-height: 180%; }
+  font-size: 1.5rem;
+  line-height: 150%; }
   .body-container h1, .body-container h2, .body-container h3, .body-container h4, .body-container h5, .body-container h6, .body-container p, .body-container pre, .body-container ul, .body-container ol, .body-container blockquote, .body-container hr, .body-container dl, .body-container table, .body-container .message, .body-container .gist {
     max-width: 750px;
     margin-left: auto;
