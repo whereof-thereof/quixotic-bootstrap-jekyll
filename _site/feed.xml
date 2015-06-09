@@ -6,13 +6,16 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 12:07:34 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 12:07:34 +0100</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2015 16:04:07 +0100</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2015 16:04:07 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Quixotic Bootstrap Jekyll</title>
-        <description>
+        <description>&lt;pre&gt;&lt;code&gt;Reminder - change date of post when ready
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Aren’t you lucky - not only do you get a &lt;a href=&quot;https://github.com/whereof-thereof/quixotic-bootstrap-jekyll#quixotic-bootstrap-jekyll&quot;&gt;README.md&lt;/a&gt;, but a blog post as well! Fantastic.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Jun 2015 00:00:00 +0100</pubDate>
         <link>http://yourdomain.com/intro-to-quixotic-bootstrap-jekyll</link>
@@ -241,11 +244,12 @@
 &lt;p&gt;Aarseth mentioned two different short stories by Jorge Luis Borges in his book, which is always a pleasure to see, but I was surprised when &lt;em&gt;Pierre Menard, Author of the Quixote&lt;/em&gt; didn’t appear in his discussion of poststructuralism’s position that any text can be read subjectively. I can only assume that two Borges references was plenty for one chapter. The &lt;em&gt;Menard&lt;/em&gt; recounts a story about the work of a 20th century author who takes it upon himself to write the &lt;em&gt;Quixote&lt;/em&gt; — not to rewrite Cervantes’ &lt;em&gt;Quixote&lt;/em&gt;, but to write it. Borges’ description goes well beyond any paultry poststructuralist statement of the subjectivity of reading and into the subjectivity of writing.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;It is a revelation to compare Menard’s Don Quixote with Cervantes’. The latter, for example, wrote (part one, chapter nine): &lt;br /&gt;&lt;br /&gt;
-“truth, whose mother is history, rival of time, depository of deeds, witness of the past, exemplar and adviser to the present, and the future’s counselor.” &lt;br /&gt;&lt;br /&gt;
-Written in the seventeenth century, written by the “lay genius” Cervantes, this enumeration is a mere rhetorical praise of history. Menard, on the other hand, writes: &lt;br /&gt;&lt;br /&gt;
-“truth, whose mother is history, rival of time, depository of deeds, witness of the past, exemplar and adviser to the present, and the future’s counselor.” &lt;br /&gt;&lt;br /&gt;
-History, the mother of truth: the idea is astounding. Menard, a contemporary of William James, does not define history as an inquiry into reality but as its origin. Historical truth, for him, is not what has happened; it is what we judge to have happened. The final phrases — exemplar and adviser to the present, and the future’s counselor — are brazenly pragmatic.&lt;/p&gt;
+  &lt;p&gt;It is a revelation to compare Menard’s Don Quixote with Cervantes’. The latter, for example, wrote (part one, chapter nine): 
+“truth, whose mother is history, rival of time, depository of deeds, witness of the past, exemplar and adviser to the present, and the future’s counselor.” 
+Written in the seventeenth century, written by the “lay genius” Cervantes, this enumeration is a mere rhetorical praise of history. Menard, on the other hand, writes: 
+“truth, whose mother is history, rival of time, depository of deeds, witness of the past, exemplar and adviser to the present, and the future’s counselor.” &lt;/p&gt;
+
+  &lt;p&gt;History, the mother of truth: the idea is astounding. Menard, a contemporary of William James, does not define history as an inquiry into reality but as its origin. Historical truth, for him, is not what has happened; it is what we judge to have happened. The final phrases — exemplar and adviser to the present, and the future’s counselor — are brazenly pragmatic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;It made only too much sense to re-text the &lt;em&gt;Menard&lt;/em&gt;. It’s well meta.&lt;/p&gt;
@@ -275,8 +279,6 @@ History, the mother of truth: the idea is astounding. Menard, a contemporary of 
 &lt;p&gt;The apparent absence of &lt;em&gt;Book Unbound&lt;/em&gt; is a deep shame. It would have been better, I feel, or more fitting with the ethos of the &lt;em&gt;Menard&lt;/em&gt;, to have rewritten &lt;em&gt;Book Unbound&lt;/em&gt; word for word, to see if I could mean something quite different in a textually identical re-telling. These two stories pivot against one another, the absence of one is the introduction of the other in the framework laid out in &lt;em&gt;Pierre Menard, Unbound&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;If anybody can point me in the direction of the original &lt;em&gt;Book Unbound&lt;/em&gt; HyperCard file, I would be extremely grateful.&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://situationi.st/MenardUnbound.html&quot;&gt;Read Pierre Menard, Unbound&lt;/a&gt;&lt;/li&gt;

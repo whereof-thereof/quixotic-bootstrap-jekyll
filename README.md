@@ -2,7 +2,7 @@
 
 ##Intro
 
-Named Quixotic Bootstrap Jekyll because it was built principally using Bootstrap, Jekyll and a bunch of other things (see list of Things), this is a smash-and-grab Jekyll theme much like Poole or Jekyll Bootstrap. The quixotic part comes from wanting to throw in all sorts of funky things, because reasons.
+Named Quixotic Bootstrap Jekyll because it was built principally using Bootstrap, Jekyll and a bunch of other things (see list of [Things](#things)), this is a smash-and-grab Jekyll theme much like Poole or Jekyll Bootstrap. The quixotic part comes from wanting to throw in all sorts of funky things, because reasons.
 
 ##Things
 
@@ -25,16 +25,31 @@ If you're running local, you'll need:
 
 ##Editorial notes
 
+###YAML
+
+Heading images are referenced using the YAML `image:`.
+
+I'm using `subtitle:` to facilitate a - you guessed it - subtitle.
+
+###Citations
+
+Footnotes are handled the normal way (will explain more soon).
+
+Blockquote citations... let me get back to you. I need to work out a method that doesn't involve plugins (forbidden in GitHub Pages).
+
+###Homepage feed
+
+I'll tell you when I've made my mind up...
+
+Note that the homepage is not designed to be print-friendly. At all. Better get some A4 mahogany frames for those other pages though, they're pretty mind-blowing. 
+
 ###Image handling
 
-Kramdown (our default markdown library) provides a way to add classes to images, which is really handy. The default image style is full width or greater, assuming that larger images will be used more and can be treated more uniformly. So if you're adding a large image there's no need to add any extra markdown.
+We're doing full-width-or-greater images, and the best way to implement this involves an editorial adjustment. If you have an image you want to make a big deal out of, you'll want to use markup rather than markdown, as follows:
 
-For less-than-full-width images, you'll want to add a style. You can do so with the following syntax:
+    <figure><img src="http://link.address" alt="Don't forget the alt text"></figure>
 
-Syntax|result
------|-----
-`![Picture description](/link/to/picture.jpg){: .image-right }`|Float image to the right (with wrap)
-`another syntax`|another result
+I'm working on a snippet of cheeky JS to repurpose the `alt` text as a caption for any image in the main body.
 
 ##Notes & disclosures
 

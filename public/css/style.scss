@@ -20,8 +20,8 @@ body {
 }
 
 .body-container {
-    font-size: 1.5rem;
-    line-height: 150%;
+    font-size: 1.6rem;
+    line-height: 170%;
 
     h1, h2, h3, h4, h5, h6, p, pre, ul, ol, blockquote, hr, dl, table, .message, .gist { 
     max-width: 750px; 
@@ -31,11 +31,19 @@ body {
     }
 }
 
+.body-container p {
+    text-align: justify;
+}
+
 blockquote blockquote {
     border-left: none;
 }
 
-.footnotes { font-size: 1.5rem; }
+.footnotes p { 
+    font-size: 1.5rem; 
+    text-align: left;
+}
+
 
 
 /* spacing */
@@ -48,7 +56,7 @@ blockquote blockquote {
 
 
 
-/* <pre> code syntax highlighting */
+/* <pre> code syntax highlighting (taken directly from Jekyll's default styles) */
 
 .highlight {
     background: #fff;
@@ -139,8 +147,19 @@ blockquote blockquote {
  * Images
  */
 
- .body-container {
-    &p img {
-        
-    }
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    max-width: 100%;
+ }
+ 
+ img {
+    max-width: 100%;
+    height: auto;
+ }
+
+ img + .caption {
+    font-style: italic;
+    text-align: center;
  }

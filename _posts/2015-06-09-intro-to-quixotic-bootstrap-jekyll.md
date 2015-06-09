@@ -7,8 +7,6 @@ permalink: intro-to-quixotic-bootstrap-jekyll
 image: 
 ---
 
-{% highlight %}
-Reminder - change date of post when ready
-{% endhighlight %}
+    Reminder - change date of post when ready
 
 Aren't you lucky - not only do you get a [README.md](https://github.com/whereof-thereof/quixotic-bootstrap-jekyll#quixotic-bootstrap-jekyll), but a blog post as well! Fantastic.
