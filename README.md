@@ -28,6 +28,8 @@ If you're running local, you'll need:
 
 ###YAML
 
+YAML|Effect
+-----|-----
 image:|the post heading image
 subtitle:|subtitle appears directly after the title
 
