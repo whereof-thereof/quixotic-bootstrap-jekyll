@@ -2,23 +2,26 @@
 
 ##Intro
 
-Named Quixotic Bootstrap Jekyll because it was built principally using Bootstrap, Jekyll and a bunch of other things (see list of [Things](#things)), this is a smash-and-grab Jekyll theme much like Poole or Jekyll Bootstrap. The quixotic part comes from wanting to throw in all sorts of funky things, because reasons.
+Named Quixotic Bootstrap Jekyll because it was built principally using Bootstrap, Jekyll and a bunch of other things (see list of [Things](#things)), this is a smash-and-grab Jekyll theme much like Poole or Jekyll Bootstrap. The Quixotic part comes from wanting to throw in all sorts of funky things, because reasons.
 
 ##Things
 
-This repo has things in it, which I didn't write myself but have been formally permitted to use. These things are as follows:
+This repo has things in it, which I didn't write myself but we're licensed to use. These things are as follows:
 
 * [Twitter Bootstrap](http://getbootstrap.com/) (v.3.3.4)
-* [Noto Sans via Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
 * The homepage scrolling script is [OnePageScroll](https://github.com/peachananr/purejs-onepage-scroll) by [Pete R.](https://github.com/peachananr)
+
+Not in the repo itself but referenced (and are therefore dependencies) are:
+
+* [Noto Sans via Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
 * ...and so on
 
 ##Requirements
 
-If you're running straight offa GitHub Pages, you're grand.
+If you're running straight offa GitHub Pages, you're grand. QBJ will work out-of-the-repo (making sure to title your branch `gh-pages`).
 
-If you're running local, you'll need:
-* Probably Git
+If you're running local or server, you'll need:
+* Possibly Git
 * Jekyll (plus dependencies)
 * Jekyll sitemap
 * SASS
@@ -29,7 +32,7 @@ If you're running local, you'll need:
 
 YAML|Effect
 -----|-----
-image:|the post heading image
+image:|the post heading image (displays on homepage)
 subtitle:|subtitle appears directly after the title
 
 ###Citations
@@ -40,7 +43,7 @@ Blockquote citations... let me get back to you. I need to work out a method that
 
 ###Homepage feed
 
-I'll tell you when I've made my mind up...
+Currently doesn't have a set limit, but displays posts in a one-page-scrolling format. This scrolling script deactivates when the browser width is 900px or less, so on mobile it smooth-scrolls.
 
 Note that the homepage is not designed to be print-friendly. At all. Better get some A4 mahogany frames for those other pages though, they're pretty mind-blowing. 
 
@@ -50,7 +53,7 @@ We're doing full-width-or-greater images, and the best way to implement this inv
 
     <figure><img src="http://link.address" alt="Don't forget the alt text"></figure>
 
-I'm working on a snippet of cheeky JS to repurpose the `alt` text as a caption for any image in the main body.
+I'm working on a snippet of cheeky JS to repurpose the `alt` text as a caption for any image in the main body (I'm thinking about it anyway).
 
 ##Notes & disclosures
 
