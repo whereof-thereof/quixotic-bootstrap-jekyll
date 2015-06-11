@@ -2,14 +2,14 @@
 
   <div class="container">
 
-    <h3><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>&nbsp;</h3>
+    <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>&nbsp;</h1>
 
     <nav class="site-nav">
-      <h3>&nbsp;<small>{% for page in site.pages %}
+      <h4>&nbsp;<small>{% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %}</small></h3>
+        {% endfor %}</small></h4>
     </nav>
 
   </div>

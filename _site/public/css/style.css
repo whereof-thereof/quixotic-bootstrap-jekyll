@@ -35,6 +35,15 @@ blockquote blockquote {
 .site-footer {
   text-align: center; }
 
+section {
+  overflow: hidden; }
+
+.main section.posts h2 {
+  text-align: center; }
+
+.main section.posts h2 span {
+  background: #fff; }
+
 /* <pre> code syntax highlighting (taken directly from Jekyll's default styles) */
 .highlight {
   background: #fff; }
@@ -190,6 +199,13 @@ blockquote blockquote {
 /**
  * Images
  */
+.section-image {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  z-index: -5; }
+
 figure {
   margin-left: auto;
   margin-right: auto;

@@ -10,7 +10,8 @@ This repo has things in it, which I didn't write myself but have been formally p
 
 * [Jekyll](http://jekyllrb.com/)
 * [Twitter Bootstrap](http://getbootstrap.com/) (v.3.3.4)
-* I've gone ahead and used [Noto Sans from Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
+* [Noto Sans via Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
+* The homepage scrolling script is [OnePageScroll](https://github.com/peachananr/purejs-onepage-scroll) by [Pete R.](https://github.com/peachananr)
 * ...and so on
 
 ##Requirements
@@ -27,9 +28,8 @@ If you're running local, you'll need:
 
 ###YAML
 
-Heading images are referenced using the YAML `image:`.
-
-I'm using `subtitle:` to facilitate a - you guessed it - subtitle.
+image:|the post heading image
+subtitle:|subtitle appears directly after the title
 
 ###Citations
 
@@ -54,3 +54,4 @@ I'm working on a snippet of cheeky JS to repurpose the `alt` text as a caption f
 ##Notes & disclosures
 
 - This isn't anywhere near ready.
+- As far as possible, I'm trying to leave borrowed code completely intact. That way if the original source disappears (see links in the [Things](#things) section) anyone can pull them straight out of this repo in their original form.

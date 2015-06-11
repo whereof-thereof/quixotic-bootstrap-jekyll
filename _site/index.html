@@ -15,19 +15,28 @@
   <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="http://yourdomain.com/">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml" />
+
+  
+    <script src="/public/js/onepagescroll/onepagescroll.min.js"></script>
+    <link rel="stylesheet" href="/public/js/onepagescroll/onepage-scroll.css">
+  
+
 </head>
 
 
   <body>
 
-    <header class="site-header">
+    <div class="main">
+  <section class="posts">
+    <div class="home-header">
+      <header class="site-header">
 
   <div class="container">
 
-    <h3><a class="site-title" href="/">Your awesome title</a>&nbsp;</h3>
+    <h1><a class="site-title" href="/">Your awesome title</a>&nbsp;</h1>
 
     <nav class="site-nav">
-      <h3>&nbsp;<small>
+      <h4>&nbsp;<small>
           
           <a class="page-link" href="/about/">About</a>
           
@@ -39,63 +48,60 @@
           
         
           
-        </small></h3>
+        </small></h4>
     </nav>
 
   </div>
 
 </header>
 
-
-    <div class="container body-container">
-      <div class="wrapper">
-        <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 9, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/intro-to-quixotic-bootstrap-jekyll">Quixotic Bootstrap Jekyll</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 8, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/06/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 8, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/2015/06/08/example-content.html">Example content</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 13, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/pierre-menard-author-quixote-unbound">Pierre Menard, Author of the Quixote, Unbound</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
-
-      </div>
     </div>
-
+    <h2><span>Hey there. Top slide here. <small>Giving you the kind of introduction you wish you got at the high school dance.</small></span></h2>
+  </section>
+  
+    <section class="posts">
+      <h2>
+        <span>
+          <a class="post-link" href="/intro-to-quixotic-bootstrap-jekyll">Quixotic Bootstrap Jekyll</a>
+          <small>An introduction.</small>
+        </span>
+      </h2>
+      
+    </section>
+  
+    <section class="posts">
+      <h2>
+        <span>
+          <a class="post-link" href="/jekyll/update/2015/06/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+          <small></small>
+        </span>
+      </h2>
+      
+    </section>
+  
+    <section class="posts">
+      <h2>
+        <span>
+          <a class="post-link" href="/2015/06/08/example-content.html">Example content</a>
+          <small></small>
+        </span>
+      </h2>
+      
+    </section>
+  
+    <section class="posts">
+      <h2>
+        <span>
+          <a class="post-link" href="/pierre-menard-author-quixote-unbound">Pierre Menard, Author of the Quixote, Unbound</a>
+          <small>An experiment in cybertext.</small>
+        </span>
+      </h2>
+      
+        <img class="section-image" src="http://i.imgur.com/j7PHYDu.jpg">
+      
+    </section>
+  
+  <section>
     <footer class="site-footer">
 
   <div class="container">
@@ -149,6 +155,27 @@
   </div>
 
 </footer>
+
+  </section>
+</div>
+
+<script>
+  onePageScroll(".main", {
+   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
+                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+   pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+   keyboard: true,                  // You can activate the keyboard controls
+   responsiveFallback: 900          // You can fallback to normal page scroll by defining the width of the browser in which
+                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
+                                    // the browser's width is less than 600, the fallback will kick in.
+});
+</script>
 
 
   </body>
