@@ -8,7 +8,6 @@ Named Quixotic Bootstrap Jekyll because it was built principally using Bootstrap
 
 This repo has things in it, which I didn't write myself but have been formally permitted to use. These things are as follows:
 
-* [Jekyll](http://jekyllrb.com/)
 * [Twitter Bootstrap](http://getbootstrap.com/) (v.3.3.4)
 * [Noto Sans via Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
 * The homepage scrolling script is [OnePageScroll](https://github.com/peachananr/purejs-onepage-scroll) by [Pete R.](https://github.com/peachananr)
