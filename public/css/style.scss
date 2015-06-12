@@ -15,8 +15,12 @@
 /* general typography */
 
 body { 
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     word-wrap: break-word; 
+}
+h1, h2, h3, h4 {
+    font-family: 'Open Sans Condensed';
+    line-height: 4rem;
 }
 
 .body-container {
@@ -48,28 +52,42 @@ blockquote blockquote {
 
 /* spacing */
 
-.site-header h3 { float: left; }
+
 
 .post-title { margin-bottom: 4rem; }
 
 .site-footer { text-align: center; }
 
-.home-header {
-    
-}
-
 section {
     overflow: hidden;
 }
 
-.main section.posts h2 { 
+.main section.posts h2, p.post-preview { 
     text-align: center; 
+    line-height: 1.4; 
+    padding: 2px 0; 
+    margin: 20px auto;
+    margin-top: 10%;
+}
+.main section.posts h2 a { 
+    color: #fff;
+}
+.main section.posts h2 a:hover { 
+    color: #fff;
+}
+.main section.posts h2 span, p.post-preview span {
+    background-color: #272727;
+    color: #fff; 
+    display: inline;
+    padding: 0.45rem;
+
+    /* Needs prefixing */
+    box-decoration-break: clone;
 }
 
-.main section.posts h2 span {
-    background: #fff;
+p.post-preview {
+    max-width: 700px;
 }
-
 
 
 /* <pre> code syntax highlighting (taken directly from Jekyll's default styles) */
@@ -142,6 +160,23 @@ section {
 
 
 /**
+ * Layout
+ */
+
+.site-footer {
+    margin-top: 10%;
+}
+
+.site-header nav {
+    display: inline;
+    float: right;
+}
+
+
+
+
+
+/**
  * Iconography
  */
 
@@ -177,8 +212,12 @@ figure {
     width: 1000px;
     max-width: 100%;
  }
+
+ header figure {
+    margin-bottom: 3rem;
+ }
  
- img {
+ .post-header img, .post-content img {
     max-width: 100%;
     height: auto;
  }

@@ -4,6 +4,8 @@
 
 Named Quixotic Bootstrap Jekyll because it was built principally using Bootstrap, Jekyll and a bunch of other things (see list of [Things](#things)), this is a smash-and-grab Jekyll theme much like Poole or Jekyll Bootstrap. The Quixotic part comes from wanting to throw in all sorts of funky things, because reasons.
 
+Give me a shoutout to [@robsafar on Twitter](http://twitter.com/robsafar) if you like.
+
 ##Things
 
 This repo has things in it, which I didn't write myself but we're licensed to use. These things are as follows:
@@ -13,7 +15,8 @@ This repo has things in it, which I didn't write myself but we're licensed to us
 
 Not in the repo itself but referenced (and are therefore dependencies) are:
 
-* [Noto Sans via Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Noto+Sans)
+* [Open Sans and Open Sans Condensed via Google/Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:700|Open+Sans:400,700)
+* [Glyphicons](http://glyphicons.com/) (via Twitter Bootstrap)
 * ...and so on
 
 ##Requirements
@@ -34,6 +37,8 @@ YAML|Effect
 -----|-----
 image:|the post heading image (displays on homepage)
 subtitle:|subtitle appears directly after the title
+teaser:|shows in previews, else gives the first 50chars of your content
+glyph:|[Glyphicons](http://getbootstrap.com/components/#glyphicons) used for pages in the menu
 
 ###Citations
 
@@ -43,7 +48,7 @@ Blockquote citations... let me get back to you. I need to work out a method that
 
 ###Homepage feed
 
-Currently doesn't have a set limit, but displays posts in a one-page-scrolling format. This scrolling script deactivates when the browser width is 900px or less, so on mobile it smooth-scrolls.
+Currently limits to 3 most recent posts, displayed in a one-page-scrolling format. This scrolling script deactivates when the browser width is 600px or less, so on lower-spec mobiles it should smooth-scroll.
 
 Note that the homepage is not designed to be print-friendly. At all. Better get some A4 mahogany frames for those other pages though, they're pretty mind-blowing. 
 
@@ -57,5 +62,5 @@ I'm working on a snippet of cheeky JS to repurpose the `alt` text as a caption f
 
 ##Notes & disclosures
 
-- This isn't anywhere near ready.
+- This is a total work in progress. My process for my own site currently involves testing and pushing on this, then testing and pushing on my site.
 - As far as possible, I'm trying to leave borrowed code completely intact. That way if the original source disappears (see links in the [Things](#things) section) anyone can pull them straight out of this repo in their original form.

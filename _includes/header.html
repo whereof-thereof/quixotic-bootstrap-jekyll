@@ -2,15 +2,24 @@
 
   <div class="container">
 
-    <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>&nbsp;</h1>
+    {% if page.layout == 'home' %}<h1>{% else %}<h3>{% endif %}
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>&nbsp;
+      <nav class="site-nav">
+        <small>{% for page in site.pages %}
+          {% unless page.exclude_from_nav %}
+            {% if page.title %}
+            &nbsp;<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+              {% if page.glyph %}
+                <span class="glyphicon {{ page.glyph }}" aria-hidden="true"></span>
+              {% endif %}
+              {{ page.title }}
+            </a>
+            {% endif %}
+          {% endunless %}
+        {% endfor %}</small>
+      </nav>
+    {% if page.layout == 'home' %}</h1>{% else %}</h3>{% endif %}
 
-    <nav class="site-nav">
-      <h4>&nbsp;<small>{% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}</small></h4>
-    </nav>
 
   </div>
 
